@@ -1,0 +1,26 @@
+/* Estilo do Botão Azul */
+.btn-el-primo {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #0088ff; /* Azul chamativo */
+    border: 3px solid #000000;
+    border-radius: 12px;
+    text-decoration: none;
+    box-shadow: 0 6px 0 #0055b3, 0 8px 10px rgba(0, 0, 0, 0.5); /* Sombra 3D azul escura */
+    transition: all 0.1s ease;
+    margin-top: 20px;
+}
+
+.btn-el-primo:hover {
+    background-color: #33a0ff;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 0 #0055b3, 0 10px 12px rgba(0, 0, 0, 0.5);
+}
+
+.btn-el-primo:active {
+    transform: translateY(4px);
+    box-shadow: 0 2px 0 #0055b3, 0 4px 6px rgba(0, 0, 0, 0.5);
+}
